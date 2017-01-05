@@ -94,12 +94,56 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*#experiment {
+    display: hidden;
+}
+
+#out_until_start {
+    opacity: 60%;
+}*/
+
+body {
+    background-color: black;
+}
 
 
+#tableresults {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    padding: 3px;
+}
 
+#tableresults td, #tableresults th, #live_data td, #live_data th {
+    border: 1px solid #111;
+    padding: 8px;
+}
 
+#tableresults tr:nth-child(even){background-color: #40152a;}
 
+#live_data tr:nth-child(even){background-color: #40152a;}
 
+#tableresults tr:nth-child(odd){background-color: #261822;}
+
+#tableresults tr:hover {background-color: #731630;}
+/*
+#live_data tr:hover {background-color: #731630;}
+*/
+#tableresults th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #731630;
+    color: white;
+}
+
+#live_data th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #731630;
+    color: white;
+}
 
 
 
